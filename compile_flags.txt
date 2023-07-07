@@ -1,0 +1,14 @@
+-xc++
+-std=gnu++11
+-ffreestanding
+-stdlib=libstdc++
+-target
+riscv32-unknown-elf
+-I
+include
+-idirafter
+/opt/riscv64/riscv64-unknown-elf/include
+-isystem
+/opt/riscv64/riscv64-unknown-elf/include/c++/10.4.0
+-isystem
+/opt/riscv64/riscv64-unknown-elf/include/c++/10.4.0/riscv64-unknown-elf/rv32imafdc/ilp32d 
